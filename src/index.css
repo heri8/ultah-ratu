@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-sage: #e2e8f0;    /* Abu-abu kehijauan yang sangat soft */
+  --color-brand-linen: #fdfbf7;   /* Putih hangat/krem bersih untuk latar belakang */
+  --color-brand-rose: #d97706;    /* Aksen terracotta lembut */
+  --color-brand-blush: #f5eae2;   /* Pink salem yang sangat pudar */
+  --color-brand-text: #2d3748;    /* Charcoal lembut untuk teks agar tidak terlalu kaku */
+}
+
+body {
+  background-color: var(--color-brand-linen);
+  color: var(--color-brand-text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  overflow-x: hidden;
+}
